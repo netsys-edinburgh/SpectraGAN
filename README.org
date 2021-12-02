@@ -3,6 +3,13 @@
 This repo contains a dataset of synthetic mobile traffic for 5 cities in Germany generated using publicly available context data for those cities as input to the pre-trained SpectraGAN model.
 We also include the input context data as part of the dataset.
 
+=data/=
+- =context/=:
+  - Each city contains a folder with all types of condition used (population POI, land use and sea condition).
+- =synthetic/=: synthetic data for each city
+  - The data is stored in =.npy= files as 3D tensors with dimension =[height, width, time]=.
+  - There is also a video per city for visualisation of the data.
+
 * Context data
 We provide the context data for 5 cities in Germany: Aachen, Bonn, Dresden, Frankfurt and Munich.
 The context data is a set of layers of publicly available information of a city as 2D images, one for each of the 27 contextual attributes.
