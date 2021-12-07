@@ -7,8 +7,10 @@ We also include the input context data as part of the dataset.
 - =context/=:
   - Each city contains a folder with all types of condition used (population POI, land use and sea condition).
 - =synthetic/=: synthetic data for each city
-  - The data is stored in =.npy= files as 3D tensors with dimension =[height, width, time]=.
-  - There is also a video per city for visualisation of the data.
+  - The data is stored in =.npy= formats as 3D tensors with dimension =[height, width, time]=.
+    - It can be read via ~np.load(FILE_PATH)~ after ~import numpy as np~ in Python.
+    - You can easily convert it to other formats - see documentation of NumPy.
+  - There is also a video per city for visualisation of the data as =.mp4= files.
 
 When using this dataset, please cite our paper using the following =bibtex=
 #+begin_src
