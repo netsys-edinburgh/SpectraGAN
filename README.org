@@ -48,5 +48,5 @@ For the time dimension, the total duration of of the traffic data is 3 weeks lon
 
 * The data generation process
 The provided synthetic data is generated in two steps to comply with the NDAs that cover the operator provided original mobile traffic datasets and support for this work.
-We train the SpectraGAN model using one-month long original mobile traffic data for 9 cities in Country 1 (City A to City I as described in Section 3.1) and their associated publicly available context data.
-We use this trained SpectraGAN model to generate the mobile traffic data for the above-mentioned 5 cities in Germany by giving their respective context data as input to the model.
+We train the SpectraGAN model using one-month long original mobile traffic data for 9 cities in Country 1 (City A to City I as described in Section 3.1 of the [[https://doi.org/10.1145/3485983.3494844][paper]]) and their associated publicly available context data.
+We use this trained SpectraGAN model to generate the mobile traffic data for the above mentioned 5 cities in Germany by giving their respective context data as input to the model.
