@@ -7,13 +7,13 @@ We also include the input context data as part of the dataset.
 - =context/=:
   - Each city contains a folder with data for all different contextual attributes (conditions) used (population, POI, land use and sea conditions).
 - =synthetic-traffic/=: synthetic traffic data for each city
-  - The data is stored in =.npy= formats as 3D tensors with dimension =[height, width, time]=.
+  - The data is stored in the =.npy= format as 3D tensors with dimension =[height, width, time]=.
     - It can be read via ~np.load(FILE_PATH)~ after ~import numpy as np~ in Python.
-    - You can easily convert it to other formats - see documentation of NumPy.
+    - You can easily convert it to other formats---see documentation of NumPy.
   - There is also a video per city for visualisation of the traffic data as =.mp4= files.
 
 When using this dataset, please cite our paper using the following =bibtex=
-#+begin_src
+#+begin_src bibtex
 @inproceedings{10.1145/3485983.3494844,
 author = {Xu, Kai and Singh, Rajkarn and Fiore, Marco and Marina, Mahesh K. and Bilen, Hakan and Usama, Muhammad and Benn, Howard and Ziemlicki, Cezary},
 title = {SpectraGAN: Spectrum Based Generation of City Scale Spatiotemporal Mobile Network Traffic Data},
