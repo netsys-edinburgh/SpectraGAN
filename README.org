@@ -12,8 +12,8 @@ We also include the input context data as part of the dataset.
     - You can easily convert it to other formats---see documentation of NumPy.
   - There is also a video per city for visualisation of the traffic data as =.mp4= files.
 
-When using this dataset, please cite our paper using the following =bibtex=
-#+begin_src bibtex
+When using this dataset, please cite our paper using the following 
+```
 @inproceedings{10.1145/3485983.3494844,
 author = {Xu, Kai and Singh, Rajkarn and Fiore, Marco and Marina, Mahesh K. and Bilen, Hakan and Usama, Muhammad and Benn, Howard and Ziemlicki, Cezary},
 title = {SpectraGAN: Spectrum Based Generation of City Scale Spatiotemporal Mobile Network Traffic Data},
@@ -31,7 +31,7 @@ keywords = {deep generative modeling, mobile network traffic data, conditional G
 location = {Virtual Event, Germany},
 series = {CoNEXT '21}
 }
-#+end_src
+```
 or other options from the [[https://dl.acm.org/doi/10.1145/3485983.3494844][ACM page]].
 
 * Context data
